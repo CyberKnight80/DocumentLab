@@ -1,0 +1,44 @@
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.csproj.AssemblyReference.cache
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.MainForm.resources
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.csproj.GenerateResource.cache
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.AssemblyInfoInputs.cache
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.AssemblyInfo.cs
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.csproj.CoreCompileInputs.cache
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentGUI.exe
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentGUI.deps.json
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentGUI.runtimeconfig.json
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentGUI.dll
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentGUI.pdb
+C:\Users\Void\Desktop\Lab_6\bin\Debug\net6.0-windows\DocumentLibrary.dll
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.csproj.CopyComplete
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.dll
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\refint\DocumentGUI.dll
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.pdb
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.genruntimeconfig.cache
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.FormAdd.resources
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.FormFind.resources
+C:\Users\Void\Desktop\Lab_6\obj\Debug\net6.0-windows\DocumentGUI.Properties.Resources.resources
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentGUI.exe
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentGUI.deps.json
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentGUI.runtimeconfig.json
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentGUI.dll
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentGUI.pdb
+C:\Users\Void\Desktop\Document GUI\bin\Debug\net6.0-windows\DocumentLibrary.dll
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.csproj.AssemblyReference.cache
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.FormAdd.resources
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.FormFind.resources
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.MainForm.resources
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.Properties.Resources.resources
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.csproj.GenerateResource.cache
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.AssemblyInfoInputs.cache
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.AssemblyInfo.cs
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.csproj.CoreCompileInputs.cache
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.csproj.CopyComplete
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.dll
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\refint\DocumentGUI.dll
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.pdb
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.genruntimeconfig.cache
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\DocumentGUI.sourcelink.json
+C:\Users\Void\Desktop\Document GUI\obj\Debug\net6.0-windows\ref\DocumentGUI.dll
