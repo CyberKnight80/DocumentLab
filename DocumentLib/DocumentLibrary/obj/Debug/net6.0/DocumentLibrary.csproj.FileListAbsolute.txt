@@ -1,0 +1,12 @@
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.csproj.AssemblyReference.cache
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.AssemblyInfoInputs.cache
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.AssemblyInfo.cs
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.csproj.CoreCompileInputs.cache
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/bin/Debug/net6.0/DocumentLibrary.deps.json
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/bin/Debug/net6.0/DocumentLibrary.dll
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/bin/Debug/net6.0/DocumentLibrary.pdb
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.dll
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/refint/DocumentLibrary.dll
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/DocumentLibrary.pdb
+/home/hellangel/WorkFolder/DocumentLib/DocumentLibrary/obj/Debug/net6.0/ref/DocumentLibrary.dll
