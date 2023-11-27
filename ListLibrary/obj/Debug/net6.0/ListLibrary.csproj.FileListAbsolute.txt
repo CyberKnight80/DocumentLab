@@ -1,0 +1,12 @@
+/home/hellangel/WorkFolder/ListLibrary/bin/Debug/net6.0/ListLibrary.deps.json
+/home/hellangel/WorkFolder/ListLibrary/bin/Debug/net6.0/ListLibrary.dll
+/home/hellangel/WorkFolder/ListLibrary/bin/Debug/net6.0/ListLibrary.pdb
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.csproj.AssemblyReference.cache
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.AssemblyInfoInputs.cache
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.AssemblyInfo.cs
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.csproj.CoreCompileInputs.cache
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.dll
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/refint/ListLibrary.dll
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ListLibrary.pdb
+/home/hellangel/WorkFolder/ListLibrary/obj/Debug/net6.0/ref/ListLibrary.dll
