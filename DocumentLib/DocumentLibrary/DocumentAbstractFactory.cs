@@ -8,7 +8,21 @@ namespace DocumentLibrary
 {
     public class DocumentAbstractFactory
     {
+        public static Report CreateReportInPrivateCircle(Report report)
+        {
+            report.Seal = new CircleSeal();
+            report.Owner = new Person();
 
+            return report;
+        }
+
+        public static Report CreateReportInOrgSquare(Report report) 
+        {
+            report.Seal = new SquareSeal();
+            report.Owner = new Organization();
+
+            return report;
+        }
     }
 
     public interface IOwner
@@ -49,7 +63,7 @@ namespace DocumentLibrary
     {
         public void MakePureSeal()
         {
-            Console.WriteLine("I am circle pure seal");
+            Console.WriteLine("I am circle pure seal. Playing on PPAL == badboy");
         }
     }
 }

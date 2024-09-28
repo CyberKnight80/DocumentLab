@@ -106,8 +106,36 @@ namespace DocumentLibrary
 
         public string? Description;
 
+        private ISeal seal;
+
+        private IOwner owner;
+
+        public IOwner Owner
+        {
+            get
+            {
+                return owner;
+            }
+            set
+            {
+                owner = value;
+            }
+        }
+
 
         //PROPERTIES
+        public ISeal Seal
+        {
+            get
+            {
+                return seal;
+            }
+            set
+            {
+                this.seal = value;
+            }
+        }
+
         public string Priority
         {
             get { return _priority; }
@@ -184,6 +212,16 @@ namespace DocumentLibrary
 
         #region Methods
         //PEREDELKA V SOLID 
+        public void MakeSeal()
+        {
+            this.Seal.MakePureSeal();
+        }
+
+        public void WhoAmI()
+        {
+            this.Owner.SayHello();
+        }
+
         private static string[] SavetyReadAllLines(string path)
         {
             string[] fileData = new string[0];
@@ -224,6 +262,14 @@ namespace DocumentLibrary
                 {
                     case "Report":
                         newDoc = ReportBuilder.Report().Name(fields[1]).Content(fields[3]).Build();
+                        if (fields[0] == "smth")
+                        {
+                            newDoc = DocumentAbstractFactory.CreateReportInOrgSquare(newDoc as Report);
+                        }
+                        else
+                        {
+                            newDoc = DocumentAbstractFactory.CreateReportInPrivateCircle(newDoc as Report);
+                        }
                         break;
                     case "Statement":
                         newDoc = DocumentFactory.CreateStatement(fields);
