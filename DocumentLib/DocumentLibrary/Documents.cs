@@ -180,12 +180,9 @@ namespace DocumentLibrary
         #endregion
 
         #region Methods
-        public static Document[] ReadFromFileAllLines(string path, int count)
+        //PEREDELKA V SOLID 
+        private static string[] SavetyReadAllLines(string path)
         {
-            Document[] newArr = new Document[count];
-
-            int iterator = 0;
-
             string[] fileData = new string[0];
 
             try
@@ -203,44 +200,77 @@ namespace DocumentLibrary
                     sw.WriteLine(e.Source);
                     sw.WriteLine();
                 }
-                throw new DocumentException("File Problem!", e);
+                //throw new DocumentException("File Problem!", e);
             }
+
+            return fileData;
+        }
+
+        private static Report CreateReport(string[] fileData)
+        {
+            Report item1 = new Report();
+            item1.Name = fileData[1]; 
+            item1.Description = fileData[2];
+            item1.Content = fileData[3];
+            string[] param = fileData[4].Split();
+            item1.ShelfTime = new DateOnly(int.Parse(param[2]), int.Parse(param[1]), int.Parse(param[0]));
+            item1.IsAccepted = Convert.ToBoolean(fileData[5]); 
+            item1.SignedBy = fileData[6]; 
+
+            return item1;   
+        }
+
+        private static Statement CreateStatement(string[] fileData)
+        {
+            Statement item2 = new Statement();
+            item2.Name = fileData[1];
+            item2.Description = fileData[2];
+            item2.Content = fileData[3];
+            string[] param1 = fileData[4].Split();
+            item2.ShelfTime = new DateOnly(int.Parse(param1[2]), int.Parse(param1[1]), int.Parse(param1[0]));
+            item2.SignedBy = fileData[5]; 
+
+            return item2;
+        }
+
+        private static Memo CreateMemo(string[] fileData)
+        {
+            Memo item3 = new Memo();
+            item3.Name = fileData[1];
+            item3.Description = fileData[2]; 
+            item3.Content = fileData[3]; 
+            item3.IsDone = Convert.ToBoolean(fileData[4]);
+            string[] param2 = fileData[5].Split();
+            item3.ShelfTime = new DateOnly(int.Parse(param2[2]), int.Parse(param2[1]), int.Parse(param2[0]));
+
+            return item3;
+        }
+
+        public static IEnumerable<Document> ReadFromFileAllLines(string path)
+        {
+            List<Document> newArr = new List<Document>();
+            
+            string[] fileData = SavetyReadAllLines(path);
+            
             foreach (string item in fileData)
             {
+                Document newDoc;
                 switch (item)
                 {
                     case "Report":
-                        Report item1 = new Report();
-                        item1.Name = item; iterator++;
-                        item1.Description = fileData[iterator]; iterator++;
-                        item1.Content = fileData[iterator]; iterator++;
-                        string[] param = fileData[iterator].Split();
-                        item1.ShelfTime = new DateOnly(int.Parse(param[2]), int.Parse(param[1]), int.Parse(param[0]));
-                        item1.IsAccepted = Convert.ToBoolean(fileData[iterator]); iterator++;
-                        item1.SignedBy = fileData[iterator]; iterator++;
+                        newDoc = CreateReport(fileData);
                         break;
                     case "Statement":
-                        Statement item2 = new Statement();
-                        item2.Name = item; iterator++;
-                        item2.Description = fileData[iterator]; iterator++;
-                        item2.Content = fileData[iterator]; iterator++;
-                        string[] param1 = fileData[iterator].Split();
-                        item2.ShelfTime = new DateOnly(int.Parse(param1[2]), int.Parse(param1[1]), int.Parse(param1[0]));
-                        item2.SignedBy = fileData[iterator]; iterator++;
+                        newDoc = CreateStatement(fileData);
                         break;
                     case "Memo":
-                        Memo item3 = new Memo();
-                        item3.Name = item; iterator++;
-                        item3.Description = fileData[iterator]; iterator++;
-                        item3.Content = fileData[iterator]; iterator++;
-                        item3.IsDone = Convert.ToBoolean(fileData[iterator]); iterator++;
-                        string[] param2 = fileData[iterator].Split();
-                        item3.ShelfTime = new DateOnly(int.Parse(param2[2]), int.Parse(param2[1]), int.Parse(param2[0]));
+                        newDoc = CreateMemo(fileData);
                         break;
                     default:
-                        iterator++;
+                        newDoc = null;
                         break;
                 }
+                newArr.Add(newDoc);
             }
             return newArr;
         }
